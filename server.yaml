@@ -1,0 +1,34 @@
+server:
+  instance_type: t2.micro
+  ami_type: amzn2
+  Region: us-east-1
+  TagName: myAwesomeServer
+  SecurityGroup: sg-0e855d8b8b3469f79
+  ImageId: ami-0947d2ba12ee1ff75
+  architecture: x86_64
+  root_device_type: ebs
+  virtualization_type: hvm
+  min_count: 1
+  max_count: 1
+  GroupName: group1
+  # two volumes section
+  volumes:
+    - device: /dev/xvda
+      size_gb: 10
+      type: ext4
+      mount: /awesome-ext4
+      permission: '770'
+    - device: /dev/xvdf
+      size_gb: 100
+      type: xfs
+      mount: /awesome-xfs-data
+      permission: '770'
+  # two users and rsa keys
+  users:
+    - login: user1
+      ssh_key: key-foo-bar-tmp/user1.pub
+    - login: user2
+      ssh_key: key-foo-bar-tmp/user2.pub
+#
+# User key-foo-bar-tmp tested as above
+    
