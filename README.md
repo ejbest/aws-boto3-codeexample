@@ -1,5 +1,7 @@
 # EJ Best: Coding Exercise - DevOps Engineer #
- 
+
+This script when run; will create an EC2 with 2 volumes and 2 users in a single step execution.  If you are able to follow the steps; you can see the test function or my contact details are below.
+
 **Base Requirements**
  <br>
 -  Linux or Mac workstation or Linux server
