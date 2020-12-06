@@ -18,11 +18,11 @@ This script when run; will create an EC2 with 2 volumes and 2 users in a single 
 <br>
 
 2. Clone the files from git<br><br>
-    git clone https://gitlab.com/advocatediablo/fetchrewards.git<br>
+    git clone https://github.com/ejbest/codeexample.git<br>
 <br>
 
 3. Go to the folder that was just created<br><br>
-    cd fetchrewards<br>
+    cd codeexample<br>
 <br>
 
 4. Execute script provide<br><br>
