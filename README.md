@@ -52,6 +52,6 @@ Please let me know any feedback; if any quesitons arise or if anything was inter
 | Contact  | EJ Best
 | ------------ | -------------------------------------
 | Skype | erich.ej.best
-| Email | erich.ej.best@gmail.com
-| Phone | 201-218-9860
+| Email | reach me on linked in for phone / email
+| Phone | reach me on linked in for phone / email
 | LinkedIn | https://www.linkedin.com/in/ejbest
